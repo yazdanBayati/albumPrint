@@ -87,7 +87,7 @@ function App() {
     //   }
     // }
 
-    setImage(URL.createObjectURL(file));
+    setImage(URL.createObjectURL(file)); //
 
     // setImage(`${window.location.origin}/${event.target.files[0].name}`);
     // const image = preprocessImage(canvasObj, event.target.files[0]);
