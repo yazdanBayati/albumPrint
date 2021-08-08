@@ -36,7 +36,7 @@ const JsonPrettier = (props) => {
   return (
     <div className={classes.style}>
       <div className={classes.headerStyle} onClick={toggle}>
-        <strong>Pretty Json</strong>
+        <strong>Print Description</strong>
       </div>
       {showToggle ? (
         <pre className={classes.preStyle}>{props.data}</pre>

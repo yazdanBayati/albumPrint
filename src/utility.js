@@ -3,5 +3,5 @@ export const convertIncheToPixel = (item) => {
 };
 
 export const convertPixelToInche = (item) => {
-  return Math.floor(item / (window.devicePixelRatio * 160));
+  return item / (window.devicePixelRatio * 160);
 };
